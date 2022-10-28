@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.side-pic {
+    background-image: url('./assets/side-picture-container.png');
+    width: 50%;
+    border-top-right-radius: 50px;
+}
+@media only screen and (max-width:768px) {
+    .side-acc {
+        background-image: url('./assets/side-picture-container.png');
+    width: 50%;
+    height: 100vh;
+    }
+}
