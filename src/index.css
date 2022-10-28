@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
 
 .side-pic {
     background-image: url('./assets/side-picture-container.png');
@@ -12,6 +17,6 @@
     .side-acc {
         background-image: url('./assets/side-picture-container.png');
     width: 50%;
-    height: 100vh;
+    height: 100%;
     }
 }

@@ -15,15 +15,15 @@
         <h2 class="text-3xl font-semibold text-center md:mt-2 mt-9  md:text-white">Create new account</h2>
         <div class="mt-8 mb-5">
             <label for="name" class="text-lg font-normal md:text-white">Full Name</label>
-            <input type="text" placeholder="Enter Your Full Name" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2">
+            <input type="text" placeholder="Enter Your Full Name" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2 md:py-3 md:rounded-sm">
         </div>
         <div class="mb-5">
             <label for="email" class="text-lg font-normal md:text-white">Email</label>
-            <input type="email" placeholder="abc@gmail.com" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2">
+            <input type="email" placeholder="abc@gmail.com" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2 md:py-3 md:rounded-sm">
         </div>
         <div class="mb-5">
             <label for="pwd" class="text-lg font-normal md:text-white">Password</label>
-            <input type="password" placeholder="Enter Your Password" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2">
+            <input type="password" placeholder="Enter Your Password" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2 md:py-3 md:rounded-sm">
         </div>
         <div>
             <input type="checkbox">
