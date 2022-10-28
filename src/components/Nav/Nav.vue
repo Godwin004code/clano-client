@@ -15,6 +15,10 @@
         </li>
       </ul>
     </nav>
-    <button class="bg-[#916BBF] px-3 text-white py-2 rounded-md ">Get Started</button>
+    <button class="bg-[#916BBF] px-3 text-white py-2 rounded-md ">
+      <span>
+        <router-link to="/register">Get Started</router-link>
+      </span>
+    </button>
   </section>
 </template>

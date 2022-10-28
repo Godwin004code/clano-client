@@ -1,5 +1,5 @@
 <template>
-    <section class="flex w-[100%] h-[100vh]">
+    <section class="flex w-[100%] h-[100vh] md:h-[100%]">
        <div class="side-pic px-6 md:hidden">
         <h2>clano</h2>
         <p class="font-semibold text-3xl text-white my-5 pl-10">
@@ -11,7 +11,7 @@
         </div>
        </div>
        <div class="w-[40%] mx-auto md:w-[100%] side-acc md:px-5">
-        <h2 class="text-3xl font-semibold text-center mt-9 md:text-white hidden md:block"> Welcome back to clano!</h2>
+        <h2 class="text-3xl font-semibold text-center mt-9 md:text-white hidden md:block"> Welcome back!</h2>
         <h2 class="text-3xl font-semibold text-center md:mt-2 mt-9  md:text-white">Login</h2>
         <div class="mb-5">
             <label for="email" class="text-lg font-normal md:text-white">Email</label>
@@ -23,9 +23,9 @@
         </div>
         <div>
             <input type="checkbox">
-            <label class='text-base font-medium md:text-white'>I agree with the Terms of services and Privacy Policy</label>
+            <label class='text-base ml-2  font-medium md:text-white'>I agree with the Terms of services and Privacy Policy</label>
         </div>
-        <button class="bg-[#916bbf] w-[100%] py-2 text-white rounded-lg mt-10 md:bg-white md:text-[#916bbf]">Sign Up</button>
+        <button class="bg-[#916bbf] w-[100%] py-2 text-white rounded-lg mt-10 md:bg-white md:text-[#916bbf]">Login</button>
         <div class="text-center md:text-white mt-3">
             You dont't have an account? <span class="md:text-black text-[#916bbf]">
                 <router-link to="/register">Register here</router-link>

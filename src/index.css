@@ -18,5 +18,7 @@ body {
         background-image: url('./assets/side-picture-container.png');
     width: 50%;
     height: 100%;
+    background-color: #916bbf;
+    min-height: 100vh;
     }
 }
