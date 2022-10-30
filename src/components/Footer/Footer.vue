@@ -1,7 +1,7 @@
 
 <template>
     <footer class="bg-[#F5F6FA] py-8">
-        <section class="w-[90%] flex justify-between mx-auto">
+        <section class="w-[90%] flex justify-between mx-auto md:flex-col">
             <h2>clano</h2>
             <nav>
                 <ul>

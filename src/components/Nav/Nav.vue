@@ -2,12 +2,15 @@
   
   <section class="w-[90%] mx-auto my-4 flex justify-between">
     <h2>clano</h2>
-    <nav>
+    <nav class="menu">
       <ul class="flex justify-between">
+        <button class="hidden md:block" @click="closeNavMenu">
+          X
+        </button>
         <li>
           <router-link to="/about">About</router-link>
         </li>
-        <li class="mx-20">
+        <li class="mx-20 md:mx-0 md:my-9">
           <router-link to="/register">Register</router-link>
         </li>
         <li>
@@ -15,10 +18,21 @@
         </li>
       </ul>
     </nav>
-    <button class="bg-[#916BBF] px-3 text-white py-2 rounded-md ">
-      <span>
-        <router-link to="/register">Get Started</router-link>
-      </span>
-    </button>
+    <button class="hidden md:block" @click="showNavMenu">Menu</button>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    showNavMenu() {
+      const menu = document.querySelector('.menu')
+      menu.classList.add('active-nav')
+    },
+    closeNavMenu() {
+      const menu = document.querySelector('.menu')
+      menu.classList.remove('active-nav')
+    }
+  }
+}
+</script>
