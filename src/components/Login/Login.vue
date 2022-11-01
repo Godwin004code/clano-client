@@ -22,8 +22,8 @@
             <input type="password" placeholder="Enter Your Password" class="border-[1px] border-[#d0d0d0] rounded-lg block w-[100%] px-2 py-2 md:py-3 md:rounded-[5px]">
         </div>
        
-        <button class="bg-[#916bbf] w-[100%] py-2 text-white rounded-lg mt-10 md:bg-white md:text-[#916bbf]">
-            <router-link to="/dashboard">Login</router-link>
+        <button class="bg-[#916bbf] w-[100%] py-2 text-white rounded-lg mt-10 md:bg-white md:text-[#916bbf]" @click="handleLogin">
+           Login
         </button>
         <div class="text-center md:text-white mt-3">
             You dont't have an account? <span class="md:text-black text-[#916bbf]">

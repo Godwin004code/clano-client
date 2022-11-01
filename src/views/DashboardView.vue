@@ -1,9 +1,11 @@
 <template>
-    <section class="w-[100%]">
+    <section class="w-[100%] bg-[#F5F6FA]">
         <section class="bg-[#916bbf] w-[100%] mx-auto rounded-bl-[60px] rounded-br-[60px] py-4 px-12">
             <header class="flex justify-between">
                 <div>clano</div>
-            <div>Profile</div>
+            <div>
+                <div class="fas fa-user text-2xl text-white"></div>
+            </div>
             </header>
             <h2 class="text-white font-bold text-4xl my-5">Welcome <span>John</span></h2>
             <h2 class="text-white pb-5">You are always connected when you're with us.</h2>
@@ -43,3 +45,5 @@
         </section>
     </section>
 </template>
+<script>
+</script>
