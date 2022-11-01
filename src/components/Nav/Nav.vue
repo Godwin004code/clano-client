@@ -5,7 +5,7 @@
     <nav class="menu">
       <ul class="flex justify-between">
         <button class="hidden md:block" @click="closeNavMenu">
-          <i class="fas fa-times text-2xl"></i>
+          <i class="fas fa-times text-3xl"></i>
         </button>
         <li>
           <router-link to="/about">About</router-link>
@@ -19,7 +19,7 @@
       </ul>
     </nav>
     <button class="hidden md:block" @click="showNavMenu">
-  <i class="fas fa-bars text-2xl"></i>
+  <i class="fas fa-bars text-3xl"></i>
     </button>
   </section>
 </template>

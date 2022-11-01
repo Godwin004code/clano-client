@@ -47,7 +47,7 @@
 Subscribe to our newsletter and get free network cheat codes into your inbox, updates on lower subscription plans and new updates from clano.
                 </p>
                 <div class="mt-20 md:my-5 w-[100%]">
-                    <input type="email" placeholder="Your Email" class="py-2 border-[1px] border-[#d0d0d0] px-2 w-[70%] sm:w-[60%] rounded-tl-md rounded-bl-md">
+                    <input type="email" placeholder="Your Email" class="py-2 border-[1px] border-[#d0d0d0] px-2 w-[70%] sm:w-[64%] rounded-tl-md rounded-bl-md">
                     <span class="bg-[#916bbf] text-white py-2 px-2 rounded-tr-md rounded-br-md border-[1.6px] border-[#916bbf] cursor-pointer">Subscribe</span>
                 </div>
             </div>

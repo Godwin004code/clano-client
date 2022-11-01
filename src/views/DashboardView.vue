@@ -1,6 +1,6 @@
 <template>
     <section class="w-[100%] bg-[#F5F6FA]">
-        <section class="bg-[#916bbf] w-[100%] mx-auto rounded-bl-[60px] rounded-br-[60px] py-4 px-12">
+        <section class="bg-[#916bbf] w-[100%] mx-auto rounded-bl-[60px] rounded-br-[60px] py-4 px-12 sm:px-8">
             <header class="flex justify-between">
                 <div>clano</div>
             <div>
