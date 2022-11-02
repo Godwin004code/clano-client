@@ -1,5 +1,5 @@
 <template>
-    <section class="w-[100%] bg-[#F5F6FA]">
+    <section class="w-[100%] bg-[#F5F6FA] h-[100%]">
         <section class="bg-[#916bbf] w-[100%] mx-auto rounded-bl-[60px] rounded-br-[60px] py-4 px-12 sm:px-8">
             <header class="flex justify-between">
                 <div>clano</div>
@@ -14,7 +14,7 @@
             <div class="bg-[#9631A7] py-7 px-5 text-white w-[33%] md:w-[95%] rounded-tl-md rounded-bl-md md:mx-auto md:mb-4 md:rounded-md">
                 <div class="text-2xl font-medium flex justify-between">
                     <h2>Your Balance</h2>
-                    <h2 class="bg-[#F67BF9] rounded-[50%] px-3 py-1">#</h2>
+                    <h2 class="bg-[#F67BF9] rounded-[50%] px-3 py-1">&#8358;</h2>
                 </div>
                 <h2 class="my-4 text-2xl">1,999</h2>
                 <h2 class="underline">

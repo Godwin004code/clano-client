@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div data-scroll-container>
        <landing-nav />
     <section>
-        <div class="flex justify-between w-[90%] mx-auto mt-9 md:flex-col">
+        <div class="flex justify-between w-[90%] mx-auto mt-9 md:flex-col" >
             <div class="mt-10 w-[40%] md:w-[80%] md:mx-auto md:text-center">
                 <h2 class="text-2xl font-semibold mb-2 md:text-center">Make use of our services conveniently</h2>
                 <p class="w-[70%]  md:text-base text-xl md:w-[100%]">Buy data, pay TV subscriptions and buy airtime at any time and at any place.
@@ -41,7 +41,7 @@
             <div class="w-[50%] md:w-[90%] md:mx-auto">
                 <img :src="img4" alt="newsletter hero">
             </div>
-            <div class="w-[40%] mt-20 md:mt-0 md:w-[90%] md:mx-auto">
+            <div class="w-[40%] mt-20 md:mt-0 md:w-[90%] md:mx-auto" >
                 <h2 class="text-3xl font-bold mt-10 text-[#252B42]">Join Us!</h2>
                 <p class="font-normal my-4 mt-10 text-[#858C94]">
 Subscribe to our newsletter and get free network cheat codes into your inbox, updates on lower subscription plans and new updates from clano.
@@ -53,7 +53,7 @@ Subscribe to our newsletter and get free network cheat codes into your inbox, up
             </div>
         </div>
     </section>
-    <Footer1 />
+    <Footer1  />
 </div>
 </template>
 
@@ -63,7 +63,8 @@ import img2 from '../assets/Saving 1.png'
 import img3 from '../assets/Trading 1.png'
 import Footer1 from '../components/Footer/Footer.vue'
 import LandingNav from '../components/Nav/Nav.vue'
-import img4 from '../assets/Frame 11.png'
+import img4 from '../assets/Frame 11.png';
+import LocomotiveScroll from 'locomotive-scroll';
 
 
 export default {
@@ -75,6 +76,17 @@ export default {
             img4
         };
     },
-    components: { Footer1, LandingNav }
+    components: { Footer1, LandingNav },
+    methods: {
+        setScroll() {
+            const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true
+});
+        }
+    },
+    mounted() {
+        this.setScroll()
+    }
 }
 </script>
